@@ -1,0 +1,353 @@
+/* extra-small device starts */
+
+@media (max-width:575px){
+    .navbar-light .navbar-toggler {
+        border-color: rgb(252, 252, 252);
+      }
+      .navbar-light .navbar-toggler i{
+          padding-top: 5px;
+      }
+      .navbar .navbar-nav .nav-item .nav-link {
+        background: white;
+        color: #353535;
+      }
+      /* navber ends */
+      #banner .banner-slider .bg-1 .banner-text p::before,
+      #banner .banner-slider .bg-1 .banner-text p::after,
+      #banner .banner-slider .bg-1 .banner-text h2::before,
+      #banner .banner-slider .bg-1 .banner-text h2::after,
+      #banner .banner-slider .bg-1 .banner-text h1::before,
+      #banner .banner-slider .bg-1 .banner-text h1::after {
+        display: none;
+      }
+      #banner .banner-item .banner-text h1 {
+        font-size: 48px;
+      }
+      /* banner ends */
+      #logo .next i{
+          display: none;
+      }
+      /* logo ends */
+      #about {
+        margin-top: 36px;
+      }
+      #about .abt-text p {
+        padding: 0;
+        line-height: 20px;
+      }
+      /* about ends */
+      #gallery {
+        margin-top: 36px;
+      }
+      /* gallery ends */
+      #team {
+        margin-top: 36px;
+      }
+      /* team ends */
+      #membership {
+        margin-top: 36px;
+      }
+      /* membership ends */
+      #class {
+        margin-top: 36;
+      }
+      #class .class-main .nav-link {
+        width: 100%;
+      }
+      #class .class-schedule .tab-pane ul li {
+        width: 100%;
+      }
+      #class .class-schedule .tab-pane ul .time {
+        font-size: 14px;
+      }
+      /* class ends */
+      footer .footer-main ul {
+        padding-bottom: 24px;
+      }
+      .footer-main .flicker{
+          padding-top: 45px;
+      }
+      /* footer ends */
+}
+/* extra-small device ends */
+
+/* small device starts */
+@media (min-width:576px) and (max-width:767px){
+    .navbar-light .navbar-toggler {
+        border-color: rgb(252, 252, 252);
+      }
+      .navbar .navbar-nav .nav-item .nav-link {
+        background: var(--brand);
+      }
+      /* navber ends */
+      #banner .banner-slider .bg-1 .banner-text p::before,
+      #banner .banner-slider .bg-1 .banner-text p::after,
+      #banner .banner-slider .bg-1 .banner-text h2::before,
+      #banner .banner-slider .bg-1 .banner-text h2::after,
+      #banner .banner-slider .bg-1 .banner-text h1::before,
+      #banner .banner-slider .bg-1 .banner-text h1::after {
+        display: none;
+      }
+      /* banner ends */
+      #about {
+        margin-top: 36px;
+      }
+      #about .abt-text p {
+        padding: 0px;
+        line-height: 24px;
+      }
+      #about .about-vdo {
+        margin-top: 10px;
+      }
+      /* about ends */
+
+      #gallery {
+        margin-top: 36px;
+      }
+      /* gallery ends */
+      #team {
+        margin-top: 36px;
+      }
+      /* team ends */
+      #membership {
+        margin-top: 36px;
+      }
+      /* membership ends */
+      #class {
+        margin-top: 36px;
+      }
+      #class .class-main .nav-link {
+        width: 33.33%;
+        padding: 20px 50px;
+      }
+      #class .class-schedule .tab-pane ul li {
+        width: 50%;
+      }
+      /* class ends */
+      #logo .next i {
+        bottom: 5px;
+        right: -23px;
+        }
+      #logo .prev i {
+        bottom: 5px;
+        left: -23px;
+        }
+        footer .footer-main .env {
+            top: 146px;
+          }
+}
+/* small device ends */ 
+
+/* medium device starts */
+@media (min-width:768px) and (max-width:991px){
+    .navbar-light .navbar-toggler {
+        border-color: rgb(252, 252, 252);
+      }
+      .navbar .navbar-nav .nav-item .nav-link {
+        background: rgba(29, 160, 242, 0.5);
+        color: var(--ff);
+      }
+    #banner .banner-slider .bg-1 .banner-text h1::before {
+        width: 209px;
+      }
+      #banner .banner-slider .bg-1 .banner-text p::before {
+        width: 96px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h2::after {
+        left: 649px;
+      }
+      #banner .banner-slider .bg-1 .banner-text p::after {
+        width: 119px;
+        right: 8px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h1::after {
+        width: 209px;
+        left: 443px;
+      }
+      #about {
+        margin-top: 25px;
+      }
+      #about .abt-text p {
+        line-height: 23px;
+      }
+      #gallery {
+        margin-top: 25px;
+      }
+      #team {
+        margin-top: 25px;
+      }
+      #membership {
+        margin-top: 40px;
+      }
+      #class {
+        margin-top: 25px;
+      }
+      #class .class-main .nav-link {
+        width: 16.66%;
+        padding: 20px 14px;
+      }
+      #class .class-schedule .tab-pane ul li {
+        width: 25%;
+      }
+      #logo .next i {
+        right: -22px;
+        bottom: 20px;
+      }
+      #logo .prev i {
+        left: -22px;
+        bottom: 20px;
+      }
+
+}
+/* medium device ends */
+
+/* large device starts */
+@media (min-width:992px) and (max-width:1199px){
+    #banner .banner-item .banner-text h1 {
+        font-size: 70px;
+      }
+      #banner .banner-item .banner-text h2 {
+        margin-top: 11px;
+      }
+      #banner .banner-slider .bg-1 .banner-text p {
+        margin-bottom: 30px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h2::after {
+        height: 225px;
+        left: 498px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h1::before {
+        width: 162px;
+        left: -89px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h1::after {
+        width: 137px;
+        left: 364px;
+      }
+      #banner .banner-slider .bg-1 .banner-text p::before {
+        width: 60px;
+        top: 244px;
+        left: -89px;
+      }
+      #banner .banner-slider .bg-1 .banner-text p::after {
+        width: 69px;
+        top: 243px;
+        right: -81px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h2::before {
+        height: 229px;
+        left: -91px;
+      }
+      #about {
+        margin-top: 30px;
+      }
+      #about .about-vdo {
+        margin-top: 67px;
+      }
+      #about .abt-text p {
+        padding: 0;
+      }
+      #gallery {
+        margin-top: 22px;
+      }
+      #team {
+        margin-top: 30px;
+      }
+      #class .class-main .nav-link {
+        padding: 20px 50px;
+      }
+      #logo .next i {
+        right: -20px;
+        bottom: 9px;
+      }
+      #logo .prev i {
+        left: -20px;
+        bottom: 9px;
+      }
+      footer .footer-main .phone {
+        top: 71px;
+      }
+      footer .footer-main .env {
+        top: 101px;
+      }
+}
+/* large device ends */
+
+/* extra-large starts */
+@media (min-width:1200px) and (max-width:1399px){
+    #banner .banner-item .banner-text h2 {
+        margin-top: 10px;
+      }
+      #banner .banner-slider .bg-1 .banner-text h2::before {
+        height: 242px;
+        left: -15px;
+      }
+      
+#banner .banner-slider .bg-1 .banner-text h2::after {
+    height: 242px;
+    left: 527px;
+  }
+  #banner .banner-slider .bg-1 .banner-text h1::before {
+    width: 134px;
+    left: -14px;
+  }
+  #banner .banner-slider .bg-1 .banner-text h1::after {
+    width: 130px;
+    left: 400px;
+  }
+  
+#banner .banner-slider .bg-1 .banner-text p::before {
+    width: 26px;
+    left: -13px;
+    top: 257px;
+  }
+  #banner .banner-slider .bg-1 .banner-text p::after {
+    width: 46px;
+    top: 257px;
+    right: -20px;
+  }
+  #about {
+    margin-top: 30px;
+  }
+  #about .abt-text p {
+    line-height: 22px;
+    padding: 0;
+    font-size: 16px;
+  }
+  #gallery {
+    margin-top: 30px;
+  }
+  #team {
+    margin-top: 30px;
+  }
+  #membership {
+    margin-top: 30px;
+  }
+  #membership .card .card-text {
+    font-size: 16px;
+  }
+  #class {
+    margin-top: 30px;
+  }
+  footer .footer-main .env {
+    top: 148px;
+  }
+}
+/* extra-large ends */
+
+/* extra-extra large starts */
+@media (min-width:1400px){
+  #about .abt-text p {
+    font-size: 16px;
+  }
+  #team {
+    margin-top: 50px;
+  }
+  #membership {
+    margin-top: 50px;
+  }
+  #class {
+    margin-top: 50px;
+  }
+}
+/* extra-extra large ends */
